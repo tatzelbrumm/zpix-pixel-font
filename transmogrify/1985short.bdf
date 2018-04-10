@@ -1,0 +1,41 @@
+STARTFONT 2.1
+FONT tinyfont1985
+SIZE 8 72 72
+FONTBOUNDINGBOX 8 10 0 -3
+COMMENT "Test font derived from character ROM created in 1985 by Christoph Maier"
+CHARS 2
+STARTCHAR space 
+ENCODING 32
+SWIDTH 576 0
+DWIDTH 8 0
+BBX 8 10 0 0
+BITMAP
+ff 
+ff 
+ff 
+ff 
+ff 
+ff 
+ff 
+ff 
+ff 
+ff
+ENDCHAR
+STARTCHAR exlcam
+ENCODING 33
+SWIDTH 576 0
+DWIDTH 8 0
+BBX 8 10 0 0
+BITMAP
+ef 
+ef 
+ef 
+ef 
+ef 
+ff 
+ef 
+ff 
+ff 
+ff
+ENDCHAR
+ENDFONT
