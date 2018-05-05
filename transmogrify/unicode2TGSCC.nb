@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     27225,        718]
-NotebookOptionsPosition[     26130,        674]
-NotebookOutlinePosition[     26471,        689]
-CellTagsIndexPosition[     26428,        686]
+NotebookDataLength[     36902,       1046]
+NotebookOptionsPosition[     35159,        980]
+NotebookOutlinePosition[     35500,        995]
+CellTagsIndexPosition[     35457,        992]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -532,7 +532,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "SuggestionsBarControlActive",
              StripOnInput->False]}, Dynamic[
@@ -541,6 +542,7 @@ Cell[BoxData[
             FrameMargins->0,
             ImageSize->{Automatic, 25}],
            Appearance->None,
+           
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
             OutputSizeLimit`Defer, 13, 26853119118037066963, Infinity],
            Enabled->True,
@@ -639,6 +641,109 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"parole", ",", "16"}], "]"}]], "Input",
+ CellChangeTimes->{{3.734493115050758*^9, 3.7344931230883303`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", 
+   RowBox[{
+    InterpretationBox[
+     SubscriptBox["\<\"feff\"\>", "\<\"16\"\>"],
+     65279,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"9a6c\"\>", "\<\"16\"\>"],
+     39532,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"514b\"\>", "\<\"16\"\>"],
+     20811,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"601d\"\>", "\<\"16\"\>"],
+     24605,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4e3b\"\>", "\<\"16\"\>"],
+     20027,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4e49\"\>", "\<\"16\"\>"],
+     20041,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"662f\"\>", "\<\"16\"\>"],
+     26159,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"65e0\"\>", "\<\"16\"\>"],
+     26080,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"6240\"\>", "\<\"16\"\>"],
+     25152,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4e0d\"\>", "\<\"16\"\>"],
+     19981,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"80fd\"\>", "\<\"16\"\>"],
+     33021,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"7684\"\>", "\<\"16\"\>"],
+     30340,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"ff0c\"\>", "\<\"16\"\>"],
+     65292,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"56e0\"\>", "\<\"16\"\>"],
+     22240,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4e3a\"\>", "\<\"16\"\>"],
+     20026,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"5b83\"\>", "\<\"16\"\>"],
+     23427,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"662f\"\>", "\<\"16\"\>"],
+     26159,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"771f\"\>", "\<\"16\"\>"],
+     30495,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"5b9e\"\>", "\<\"16\"\>"],
+     23454,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"7684\"\>", "\<\"16\"\>"],
+     30340,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3002\"\>", "\<\"16\"\>"],
+     12290,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"a\"\>", "\<\"16\"\>"],
+     10,
+     Editable->False]}], "}"}],
+  BaseForm[#, 16]& ]], "Output",
+ CellChangeTimes->{3.7344931240066833`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
  RowBox[{"FromCharacterCode", "[", "parole", "]"}]], "Input",
  CellChangeTimes->{{3.734492444657461*^9, 3.73449245317526*^9}}],
 
@@ -650,13 +755,21 @@ Cell[BoxData["\<\"\:feff\:9a6c\:514b\:601d\:4e3b\:4e49\:662f\:65e0\:6240\:4e0d\
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
   RowBox[{
    RowBox[{"Lookup", "[", 
     RowBox[{"reverselookup", ",", "#", ",", 
-     RowBox[{"-", "1"}]}], "]"}], "&"}], "/@", "parole"}]], "Input",
- CellChangeTimes->{{3.734492570581633*^9, 3.734492610726362*^9}}],
+     RowBox[{"-", "1"}]}], "]"}], "&"}], "/@", 
+  "parole"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Select", "[", 
+   RowBox[{"%", ",", 
+    RowBox[{
+     RowBox[{"#", "\[NotEqual]", 
+      RowBox[{"-", "1"}]}], "&"}]}], "]"}], "-", "1"}]}], "Input",
+ CellChangeTimes->{{3.734492570581633*^9, 3.734492610726362*^9}, {
+  3.734493691701858*^9, 3.734493724098831*^9}}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -668,7 +781,200 @@ Cell[BoxData[
    "1832", ",", "1285", ",", "1155", ",", 
    RowBox[{"-", "1"}], ",", 
    RowBox[{"-", "1"}]}], "}"}]], "Output",
- CellChangeTimes->{3.7344926113514547`*^9}]
+ CellChangeTimes->{
+  3.7344926113514547`*^9, {3.734493714929206*^9, 3.734493724907041*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "71", ",", "674", ",", "1499", ",", "299", ",", "56", ",", "1478", ",", 
+   "80", ",", "1163", ",", "90", ",", "2145", ",", "1154", ",", "429", ",", 
+   "164", ",", "313", ",", "1478", ",", "1831", ",", "1284", ",", "1154"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.7344926113514547`*^9, {3.734493714929206*^9, 3.7344937249088907`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"proletarier", "=", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\</home/cmaier/Hackerspaces/sinobit/zpix-pixel-font/transmogrify/\
+ProletarierAllerLaender.UTF32\>\"", ",", "\"\<UnsignedInteger32\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.7344923088176603`*^9, 3.7344923914568863`*^9}, {
+  3.7344924349104958`*^9, 3.734492436723888*^9}, {3.734495030088273*^9, 
+  3.7344950645511513`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "65279", ",", "20840", ",", "19990", ",", "30028", ",", "26080", ",", 
+   "20135", ",", "32773", ",", "32852", ",", "21512", ",", "36215", ",", 
+   "26469", ",", "10", ",", "20840", ",", "19990", ",", "30028", ",", "28961",
+    ",", "29986", ",", "32773", ",", "32879", ",", "21512", ",", "36215", ",",
+    "20358", ",", "10"}], "}"}]], "Output",
+ CellChangeTimes->{3.7344950690708027`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"proletarier", ",", "16"}], "]"}]], "Input",
+ CellChangeTimes->{{3.734495072563455*^9, 3.734495079807539*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", 
+   RowBox[{
+    InterpretationBox[
+     SubscriptBox["\<\"feff\"\>", "\<\"16\"\>"],
+     65279,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"5168\"\>", "\<\"16\"\>"],
+     20840,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4e16\"\>", "\<\"16\"\>"],
+     19990,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"754c\"\>", "\<\"16\"\>"],
+     30028,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"65e0\"\>", "\<\"16\"\>"],
+     26080,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4ea7\"\>", "\<\"16\"\>"],
+     20135,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"8005\"\>", "\<\"16\"\>"],
+     32773,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"8054\"\>", "\<\"16\"\>"],
+     32852,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"5408\"\>", "\<\"16\"\>"],
+     21512,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"8d77\"\>", "\<\"16\"\>"],
+     36215,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"6765\"\>", "\<\"16\"\>"],
+     26469,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"a\"\>", "\<\"16\"\>"],
+     10,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"5168\"\>", "\<\"16\"\>"],
+     20840,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4e16\"\>", "\<\"16\"\>"],
+     19990,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"754c\"\>", "\<\"16\"\>"],
+     30028,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"7121\"\>", "\<\"16\"\>"],
+     28961,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"7522\"\>", "\<\"16\"\>"],
+     29986,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"8005\"\>", "\<\"16\"\>"],
+     32773,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"806f\"\>", "\<\"16\"\>"],
+     32879,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"5408\"\>", "\<\"16\"\>"],
+     21512,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"8d77\"\>", "\<\"16\"\>"],
+     36215,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4f86\"\>", "\<\"16\"\>"],
+     20358,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"a\"\>", "\<\"16\"\>"],
+     10,
+     Editable->False]}], "}"}],
+  BaseForm[#, 16]& ]], "Output",
+ CellChangeTimes->{3.734495082506955*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FromCharacterCode", "[", "proletarier", "]"}]], "Input",
+ CellChangeTimes->{{3.734495090345083*^9, 3.734495095760344*^9}}],
+
+Cell[BoxData["\<\"\:feff\:5168\:4e16\:754c\:65e0\:4ea7\:8005\:8054\:5408\:8d77\
+\:6765\\n\:5168\:4e16\:754c\:7121\:7522\:8005\:806f\:5408\:8d77\:4f86\\n\"\>"]\
+, "Output",
+ CellChangeTimes->{3.734495098688814*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Lookup", "[", 
+    RowBox[{"reverselookup", ",", "#", ",", 
+     RowBox[{"-", "1"}]}], "]"}], "&"}], "/@", 
+  "proletarier"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Select", "[", 
+   RowBox[{"%", ",", 
+    RowBox[{
+     RowBox[{"#", "\[NotEqual]", 
+      RowBox[{"-", "1"}]}], "&"}]}], "]"}], "-", "1"}]}], "Input",
+ CellChangeTimes->{{3.734495120418852*^9, 3.734495156068138*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "1"}], ",", "485", ",", "206", ",", "1496", ",", "81", ",", 
+   "522", ",", "969", ",", "2544", ",", "488", ",", "1789", ",", "707", ",", 
+   RowBox[{"-", "1"}], ",", "485", ",", "206", ",", "1496", ",", 
+   RowBox[{"-", "1"}], ",", 
+   RowBox[{"-", "1"}], ",", "969", ",", 
+   RowBox[{"-", "1"}], ",", "488", ",", "1789", ",", 
+   RowBox[{"-", "1"}], ",", 
+   RowBox[{"-", "1"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.734495157542938*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "484", ",", "205", ",", "1495", ",", "80", ",", "521", ",", "968", ",", 
+   "2543", ",", "487", ",", "1788", ",", "706", ",", "484", ",", "205", ",", 
+   "1495", ",", "968", ",", "487", ",", "1788"}], "}"}]], "Output",
+ CellChangeTimes->{3.734495157543899*^9}]
 }, Open  ]]
 }, Open  ]]
 },
@@ -705,22 +1011,46 @@ Cell[12824, 339, 95, 2, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[12956, 346, 568, 13, 34, "Input"],
-Cell[13527, 361, 10627, 252, 189, "Output"]
+Cell[13527, 361, 10687, 254, 189, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[24191, 618, 348, 7, 34, "Input"],
-Cell[24542, 627, 441, 8, 57, "Output"]
+Cell[24251, 620, 348, 7, 34, "Input"],
+Cell[24602, 629, 441, 8, 57, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25020, 640, 140, 2, 32, "Input"],
-Cell[25163, 644, 212, 3, 55, "Output"]
+Cell[25080, 642, 158, 3, 34, "Input"],
+Cell[25241, 647, 2610, 93, 71, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25412, 652, 241, 6, 34, "Input"],
-Cell[25656, 660, 446, 10, 34, "Output"]
+Cell[27888, 745, 140, 2, 32, "Input"],
+Cell[28031, 749, 212, 3, 55, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28280, 757, 480, 14, 57, "Input"],
+Cell[28763, 773, 495, 11, 34, "Output"],
+Cell[29261, 786, 383, 8, 34, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29681, 799, 421, 9, 34, "Input"],
+Cell[30105, 810, 432, 8, 57, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30574, 823, 161, 3, 34, "Input"],
+Cell[30738, 828, 2715, 97, 71, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33490, 930, 146, 2, 32, "Input"],
+Cell[33639, 934, 213, 3, 110, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33889, 942, 436, 13, 57, "Input"],
+Cell[34328, 957, 498, 11, 34, "Output"],
+Cell[34829, 970, 302, 6, 34, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
 ]
 *)
+
+(* End of internal cache information *)
 
