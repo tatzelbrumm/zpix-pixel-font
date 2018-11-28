@@ -1,0 +1,1455 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     44210,       1447]
+NotebookOptionsPosition[     42805,       1394]
+NotebookOutlinePosition[     43313,       1415]
+CellTagsIndexPosition[     43224,       1410]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.7333240820724707`*^9, 3.733324085574217*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"missingcodes", ",", "16"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", 
+   RowBox[{
+    InterpretationBox[
+     SubscriptBox["\<\"39d0\"\>", "\<\"16\"\>"],
+     14800,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"39df\"\>", "\<\"16\"\>"],
+     14815,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"43dd\"\>", "\<\"16\"\>"],
+     17373,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c27c\"\>", "\<\"16\"\>"],
+     180860,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3918\"\>", "\<\"16\"\>"],
+     14616,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"20cd0\"\>", "\<\"16\"\>"],
+     134352,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"497d\"\>", "\<\"16\"\>"],
+     18813,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4056\"\>", "\<\"16\"\>"],
+     16470,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"25ed7\"\>", "\<\"16\"\>"],
+     155351,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4983\"\>", "\<\"16\"\>"],
+     18819,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3e06\"\>", "\<\"16\"\>"],
+     15878,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"20676\"\>", "\<\"16\"\>"],
+     132726,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c8d9\"\>", "\<\"16\"\>"],
+     182489,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28678\"\>", "\<\"16\"\>"],
+     165496,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c1d5\"\>", "\<\"16\"\>"],
+     180693,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4723\"\>", "\<\"16\"\>"],
+     18211,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c8de\"\>", "\<\"16\"\>"],
+     182494,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c613\"\>", "\<\"16\"\>"],
+     181779,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bb5f\"\>", "\<\"16\"\>"],
+     179039,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bb62\"\>", "\<\"16\"\>"],
+     179042,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"39d1\"\>", "\<\"16\"\>"],
+     14801,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b1ed\"\>", "\<\"16\"\>"],
+     176621,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b404\"\>", "\<\"16\"\>"],
+     177156,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"356e\"\>", "\<\"16\"\>"],
+     13678,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bd77\"\>", "\<\"16\"\>"],
+     179575,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3447\"\>", "\<\"16\"\>"],
+     13383,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"23c98\"\>", "\<\"16\"\>"],
+     146584,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"23c97\"\>", "\<\"16\"\>"],
+     146583,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c1d9\"\>", "\<\"16\"\>"],
+     180697,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3cc7\"\>", "\<\"16\"\>"],
+     15559,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c8e1\"\>", "\<\"16\"\>"],
+     182497,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2be29\"\>", "\<\"16\"\>"],
+     179753,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"48ba\"\>", "\<\"16\"\>"],
+     18618,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28695\"\>", "\<\"16\"\>"],
+     165525,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b61c\"\>", "\<\"16\"\>"],
+     177692,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c618\"\>", "\<\"16\"\>"],
+     181784,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b61d\"\>", "\<\"16\"\>"],
+     177693,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"48bc\"\>", "\<\"16\"\>"],
+     18620,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"26b5c\"\>", "\<\"16\"\>"],
+     158556,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3b4e\"\>", "\<\"16\"\>"],
+     15182,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ca02\"\>", "\<\"16\"\>"],
+     182786,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c029\"\>", "\<\"16\"\>"],
+     180265,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c02a\"\>", "\<\"16\"\>"],
+     180266,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"37c3\"\>", "\<\"16\"\>"],
+     14275,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb29\"\>", "\<\"16\"\>"],
+     183081,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"344a\"\>", "\<\"16\"\>"],
+     13386,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b363\"\>", "\<\"16\"\>"],
+     176995,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c8f3\"\>", "\<\"16\"\>"],
+     182515,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ca7d\"\>", "\<\"16\"\>"],
+     182909,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cbbf\"\>", "\<\"16\"\>"],
+     183231,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cbc0\"\>", "\<\"16\"\>"],
+     183232,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bc1b\"\>", "\<\"16\"\>"],
+     179227,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ccf5\"\>", "\<\"16\"\>"],
+     183541,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ccf6\"\>", "\<\"16\"\>"],
+     183542,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4339\"\>", "\<\"16\"\>"],
+     17209,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b80a\"\>", "\<\"16\"\>"],
+     178186,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"36c3\"\>", "\<\"16\"\>"],
+     14019,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c35b\"\>", "\<\"16\"\>"],
+     181083,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"9fcd\"\>", "\<\"16\"\>"],
+     40909,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c72c\"\>", "\<\"16\"\>"],
+     182060,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"26c21\"\>", "\<\"16\"\>"],
+     158753,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3b55\"\>", "\<\"16\"\>"],
+     15189,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4d13\"\>", "\<\"16\"\>"],
+     19731,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4dae\"\>", "\<\"16\"\>"],
+     19886,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2afa2\"\>", "\<\"16\"\>"],
+     176034,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2aa30\"\>", "\<\"16\"\>"],
+     174640,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b4e7\"\>", "\<\"16\"\>"],
+     177383,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb2e\"\>", "\<\"16\"\>"],
+     183086,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb31\"\>", "\<\"16\"\>"],
+     183089,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb2d\"\>", "\<\"16\"\>"],
+     183085,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"43e1\"\>", "\<\"16\"\>"],
+     17377,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"26676\"\>", "\<\"16\"\>"],
+     157302,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3db2\"\>", "\<\"16\"\>"],
+     15794,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3cda\"\>", "\<\"16\"\>"],
+     15578,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3cd8\"\>", "\<\"16\"\>"],
+     15576,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c621\"\>", "\<\"16\"\>"],
+     181793,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ccfd\"\>", "\<\"16\"\>"],
+     183549,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c629\"\>", "\<\"16\"\>"],
+     181801,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b127\"\>", "\<\"16\"\>"],
+     176423,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2a7dd\"\>", "\<\"16\"\>"],
+     174045,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c364\"\>", "\<\"16\"\>"],
+     181092,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bb7c\"\>", "\<\"16\"\>"],
+     179068,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c72f\"\>", "\<\"16\"\>"],
+     182063,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"44d6\"\>", "\<\"16\"\>"],
+     17622,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c0a9\"\>", "\<\"16\"\>"],
+     180393,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b806\"\>", "\<\"16\"\>"],
+     178182,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28408\"\>", "\<\"16\"\>"],
+     164872,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c317\"\>", "\<\"16\"\>"],
+     181015,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b461\"\>", "\<\"16\"\>"],
+     177249,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2aa36\"\>", "\<\"16\"\>"],
+     174646,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb38\"\>", "\<\"16\"\>"],
+     183096,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb3b\"\>", "\<\"16\"\>"],
+     183099,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb39\"\>", "\<\"16\"\>"],
+     183097,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb3f\"\>", "\<\"16\"\>"],
+     183103,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb41\"\>", "\<\"16\"\>"],
+     183105,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b8b8\"\>", "\<\"16\"\>"],
+     178360,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b5e7\"\>", "\<\"16\"\>"],
+     177639,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c288\"\>", "\<\"16\"\>"],
+     180872,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c488\"\>", "\<\"16\"\>"],
+     181384,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28e99\"\>", "\<\"16\"\>"],
+     167577,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"36da\"\>", "\<\"16\"\>"],
+     14042,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ccff\"\>", "\<\"16\"\>"],
+     183551,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b128\"\>", "\<\"16\"\>"],
+     176424,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c62b\"\>", "\<\"16\"\>"],
+     181803,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"40ae\"\>", "\<\"16\"\>"],
+     16558,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bb83\"\>", "\<\"16\"\>"],
+     179075,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"364d\"\>", "\<\"16\"\>"],
+     13901,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"44eb\"\>", "\<\"16\"\>"],
+     17643,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"44ec\"\>", "\<\"16\"\>"],
+     17644,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"44e8\"\>", "\<\"16\"\>"],
+     17640,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"44db\"\>", "\<\"16\"\>"],
+     17627,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"9fce\"\>", "\<\"16\"\>"],
+     40910,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4d15\"\>", "\<\"16\"\>"],
+     19733,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3af0\"\>", "\<\"16\"\>"],
+     15088,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cc56\"\>", "\<\"16\"\>"],
+     183382,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c7fd\"\>", "\<\"16\"\>"],
+     182269,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4383\"\>", "\<\"16\"\>"],
+     17283,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b4ef\"\>", "\<\"16\"\>"],
+     177391,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b7f9\"\>", "\<\"16\"\>"],
+     178169,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b7fc\"\>", "\<\"16\"\>"],
+     178172,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3fe0\"\>", "\<\"16\"\>"],
+     16352,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4759\"\>", "\<\"16\"\>"],
+     18265,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"43f2\"\>", "\<\"16\"\>"],
+     17394,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"20164\"\>", "\<\"16\"\>"],
+     131428,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4d14\"\>", "\<\"16\"\>"],
+     19732,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c1f9\"\>", "\<\"16\"\>"],
+     180729,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c361\"\>", "\<\"16\"\>"],
+     181089,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3944\"\>", "\<\"16\"\>"],
+     14660,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c907\"\>", "\<\"16\"\>"],
+     182535,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b36f\"\>", "\<\"16\"\>"],
+     177007,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c90a\"\>", "\<\"16\"\>"],
+     182538,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b372\"\>", "\<\"16\"\>"],
+     177010,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cbce\"\>", "\<\"16\"\>"],
+     183246,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c62c\"\>", "\<\"16\"\>"],
+     181804,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c62d\"\>", "\<\"16\"\>"],
+     181805,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd02\"\>", "\<\"16\"\>"],
+     183554,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b626\"\>", "\<\"16\"\>"],
+     177702,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b7c5\"\>", "\<\"16\"\>"],
+     178117,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c62f\"\>", "\<\"16\"\>"],
+     181807,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b627\"\>", "\<\"16\"\>"],
+     177703,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3658\"\>", "\<\"16\"\>"],
+     13912,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2a8fb\"\>", "\<\"16\"\>"],
+     174331,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2139a\"\>", "\<\"16\"\>"],
+     136090,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c0ca\"\>", "\<\"16\"\>"],
+     180426,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cdd5\"\>", "\<\"16\"\>"],
+     183765,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b410\"\>", "\<\"16\"\>"],
+     177168,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce7c\"\>", "\<\"16\"\>"],
+     183932,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"27ff9\"\>", "\<\"16\"\>"],
+     163833,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bd87\"\>", "\<\"16\"\>"],
+     179591,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b5ae\"\>", "\<\"16\"\>"],
+     177582,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"9fcf\"\>", "\<\"16\"\>"],
+     40911,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb4a\"\>", "\<\"16\"\>"],
+     183114,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28c47\"\>", "\<\"16\"\>"],
+     166983,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b4f6\"\>", "\<\"16\"\>"],
+     177398,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb4e\"\>", "\<\"16\"\>"],
+     183118,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b5af\"\>", "\<\"16\"\>"],
+     177583,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4403\"\>", "\<\"16\"\>"],
+     17411,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cc5f\"\>", "\<\"16\"\>"],
+     183391,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b6ed\"\>", "\<\"16\"\>"],
+     177901,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3e84\"\>", "\<\"16\"\>"],
+     16004,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bdf7\"\>", "\<\"16\"\>"],
+     179703,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cbb1\"\>", "\<\"16\"\>"],
+     183217,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c2a4\"\>", "\<\"16\"\>"],
+     180900,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"23e23\"\>", "\<\"16\"\>"],
+     146979,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3d14\"\>", "\<\"16\"\>"],
+     15636,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"36f9\"\>", "\<\"16\"\>"],
+     14073,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd03\"\>", "\<\"16\"\>"],
+     183555,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b628\"\>", "\<\"16\"\>"],
+     177704,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4d16\"\>", "\<\"16\"\>"],
+     19734,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"249db\"\>", "\<\"16\"\>"],
+     149979,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2caa9\"\>", "\<\"16\"\>"],
+     182953,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c494\"\>", "\<\"16\"\>"],
+     181396,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"40c5\"\>", "\<\"16\"\>"],
+     16581,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ca0e\"\>", "\<\"16\"\>"],
+     182798,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b413\"\>", "\<\"16\"\>"],
+     177171,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"48d8\"\>", "\<\"16\"\>"],
+     18648,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2bac7\"\>", "\<\"16\"\>"],
+     178887,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3b0a\"\>", "\<\"16\"\>"],
+     15114,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b4f9\"\>", "\<\"16\"\>"],
+     177401,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb5a\"\>", "\<\"16\"\>"],
+     183130,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb5b\"\>", "\<\"16\"\>"],
+     183131,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"415f\"\>", "\<\"16\"\>"],
+     16735,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c542\"\>", "\<\"16\"\>"],
+     181570,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4c9f\"\>", "\<\"16\"\>"],
+     19615,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd8b\"\>", "\<\"16\"\>"],
+     183691,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd8d\"\>", "\<\"16\"\>"],
+     183693,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2677c\"\>", "\<\"16\"\>"],
+     157564,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b536\"\>", "\<\"16\"\>"],
+     177462,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b300\"\>", "\<\"16\"\>"],
+     176896,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b5b3\"\>", "\<\"16\"\>"],
+     177587,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b62a\"\>", "\<\"16\"\>"],
+     177706,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b62c\"\>", "\<\"16\"\>"],
+     177708,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b7a9\"\>", "\<\"16\"\>"],
+     178089,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"21413\"\>", "\<\"16\"\>"],
+     136211,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2a917\"\>", "\<\"16\"\>"],
+     174359,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"235cb\"\>", "\<\"16\"\>"],
+     144843,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce18\"\>", "\<\"16\"\>"],
+     183832,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"40ce\"\>", "\<\"16\"\>"],
+     16590,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c497\"\>", "\<\"16\"\>"],
+     181399,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"25532\"\>", "\<\"16\"\>"],
+     152882,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b696\"\>", "\<\"16\"\>"],
+     177814,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4d17\"\>", "\<\"16\"\>"],
+     19735,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3b0e\"\>", "\<\"16\"\>"],
+     15118,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28c4f\"\>", "\<\"16\"\>"],
+     166991,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb64\"\>", "\<\"16\"\>"],
+     183140,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3666\"\>", "\<\"16\"\>"],
+     13926,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b695\"\>", "\<\"16\"\>"],
+     177813,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd90\"\>", "\<\"16\"\>"],
+     183696,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd8f\"\>", "\<\"16\"\>"],
+     183695,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"29f7e\"\>", "\<\"16\"\>"],
+     171902,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce1a\"\>", "\<\"16\"\>"],
+     183834,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3f4f\"\>", "\<\"16\"\>"],
+     16207,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3bbe\"\>", "\<\"16\"\>"],
+     15294,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c91d\"\>", "\<\"16\"\>"],
+     182557,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c642\"\>", "\<\"16\"\>"],
+     181826,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3eec\"\>", "\<\"16\"\>"],
+     16108,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"45d6\"\>", "\<\"16\"\>"],
+     17878,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3807\"\>", "\<\"16\"\>"],
+     14343,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb69\"\>", "\<\"16\"\>"],
+     183145,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4d18\"\>", "\<\"16\"\>"],
+     19736,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"29f83\"\>", "\<\"16\"\>"],
+     171907,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3d50\"\>", "\<\"16\"\>"],
+     15696,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce23\"\>", "\<\"16\"\>"],
+     183843,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b37d\"\>", "\<\"16\"\>"],
+     177021,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd0a\"\>", "\<\"16\"\>"],
+     183562,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c79f\"\>", "\<\"16\"\>"],
+     182175,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"25562\"\>", "\<\"16\"\>"],
+     152930,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b7e6\"\>", "\<\"16\"\>"],
+     178150,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce88\"\>", "\<\"16\"\>"],
+     183944,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b81c\"\>", "\<\"16\"\>"],
+     178204,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3b1a\"\>", "\<\"16\"\>"],
+     15130,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"45db\"\>", "\<\"16\"\>"],
+     17883,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3813\"\>", "\<\"16\"\>"],
+     14355,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2aa58\"\>", "\<\"16\"\>"],
+     174680,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb6c\"\>", "\<\"16\"\>"],
+     183148,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28c51\"\>", "\<\"16\"\>"],
+     166993,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb6f\"\>", "\<\"16\"\>"],
+     183151,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b5f4\"\>", "\<\"16\"\>"],
+     177652,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce26\"\>", "\<\"16\"\>"],
+     183846,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b137\"\>", "\<\"16\"\>"],
+     176439,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"24a7d\"\>", "\<\"16\"\>"],
+     150141,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"360e\"\>", "\<\"16\"\>"],
+     13838,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb73\"\>", "\<\"16\"\>"],
+     183155,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb76\"\>", "\<\"16\"\>"],
+     183158,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b50d\"\>", "\<\"16\"\>"],
+     177421,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb78\"\>", "\<\"16\"\>"],
+     183160,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28c54\"\>", "\<\"16\"\>"],
+     166996,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cb7c\"\>", "\<\"16\"\>"],
+     183164,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b50e\"\>", "\<\"16\"\>"],
+     177422,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce2a\"\>", "\<\"16\"\>"],
+     183850,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4ca0\"\>", "\<\"16\"\>"],
+     19616,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cd9f\"\>", "\<\"16\"\>"],
+     183711,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cda0\"\>", "\<\"16\"\>"],
+     183712,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"45ea\"\>", "\<\"16\"\>"],
+     17898,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cda8\"\>", "\<\"16\"\>"],
+     183720,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"26221\"\>", "\<\"16\"\>"],
+     156193,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b138\"\>", "\<\"16\"\>"],
+     176440,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c7c1\"\>", "\<\"16\"\>"],
+     182209,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"255a8\"\>", "\<\"16\"\>"],
+     153000,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"45f4\"\>", "\<\"16\"\>"],
+     17908,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4ca2\"\>", "\<\"16\"\>"],
+     19618,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2648d\"\>", "\<\"16\"\>"],
+     156813,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4396\"\>", "\<\"16\"\>"],
+     17302,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"4d19\"\>", "\<\"16\"\>"],
+     19737,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c64a\"\>", "\<\"16\"\>"],
+     181834,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3c00\"\>", "\<\"16\"\>"],
+     15360,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cdad\"\>", "\<\"16\"\>"],
+     183725,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"29f8c\"\>", "\<\"16\"\>"],
+     171916,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"287e0\"\>", "\<\"16\"\>"],
+     165856,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2cdae\"\>", "\<\"16\"\>"],
+     183726,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"28b49\"\>", "\<\"16\"\>"],
+     166729,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"3e0c\"\>", "\<\"16\"\>"],
+     15884,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2c64b\"\>", "\<\"16\"\>"],
+     181835,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"24ac9\"\>", "\<\"16\"\>"],
+     150217,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2ce93\"\>", "\<\"16\"\>"],
+     183955,
+     Editable->False], ",", 
+    InterpretationBox[
+     SubscriptBox["\<\"2b6ad\"\>", "\<\"16\"\>"],
+     177837,
+     Editable->False]}], "}"}],
+  BaseForm[#, 16]& ]], "Output",
+ CellChangeTimes->{3.7333240988747168`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "IntegerDigits"}]], "Input",
+ CellChangeTimes->{{3.733325160653912*^9, 3.733325165462574*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox["\<\"\\!\\(\\*RowBox[{\\\"IntegerDigits\\\", \\\"[\\\", \
+StyleBox[\\\"n\\\", \\\"TI\\\"], \\\"]\\\"}]\\) gives a list of the decimal \
+digits in the integer \\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"IntegerDigits\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"n\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"b\\\", \
+\\\"TI\\\"]}], \\\"]\\\"}]\\) gives a list of the base \
+\\!\\(\\*StyleBox[\\\"b\\\", \\\"TI\\\"]\\) digits in the integer \
+\\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"IntegerDigits\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"n\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"b\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"len\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) \
+pads the list on the left with zeros to give a list of length \
+\\!\\(\\*StyleBox[\\\"len\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"IntegerDigits\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"n\\\", \\\"TI\\\"], \\\",\\\", \
+RowBox[{\\\"MixedRadix\\\", \\\"[\\\", StyleBox[\\\"blist\\\", \\\"TI\\\"], \
+\\\"]\\\"}]}], \\\"]\\\"}]\\) uses the mixed radix with list of bases \
+\\!\\(\\*StyleBox[\\\"blist\\\", \\\"TI\\\"]\\).\"\>", "MSG"], 
+  "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:ref/IntegerDigits"]}]], "Print", "PrintUsage",
+ CellChangeTimes->{3.7333251658163643`*^9},
+ CellTags->"Info1073733332365-7849400"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"missing16bitcodes", "=", 
+  RowBox[{"StringRiffle", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"FromCharacterCode", "[", "#", "]"}], "<>", "\"\<\\tU+\>\"", "<>", 
+       RowBox[{"IntegerString", "[", 
+        RowBox[{"#", ",", "16", ",", "4"}], "]"}]}], "&"}], "/@", 
+     RowBox[{"Select", "[", 
+      RowBox[{"missingcodes", ",", 
+       RowBox[{
+        RowBox[{"#", "<", 
+         SuperscriptBox["2", "16"]}], "&"}]}], "]"}]}], ",", "\"\<\\n\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.733324908833469*^9, 3.733324973451787*^9}, {
+  3.733325029963195*^9, 3.733325115567483*^9}, {3.733325181993802*^9, 
+  3.733325248970438*^9}, {3.7333253063348618`*^9, 3.7333253127843103`*^9}}],
+
+Cell[BoxData["\<\"\:39d0\\tU+39d0\\n\:39df\\tU+39df\\n\:43dd\\tU+43dd\\n\:3918\
+\\tU+3918\\n\:497d\\tU+497d\\n\:4056\\tU+4056\\n\:4983\\tU+4983\\n\:3e06\\tU+\
+3e06\\n\:4723\\tU+4723\\n\:39d1\\tU+39d1\\n\:356e\\tU+356e\\n\:3447\\tU+3447\\\
+n\:3cc7\\tU+3cc7\\n\:48ba\\tU+48ba\\n\:48bc\\tU+48bc\\n\:3b4e\\tU+3b4e\\n\
+\:37c3\\tU+37c3\\n\:344a\\tU+344a\\n\:4339\\tU+4339\\n\:36c3\\tU+36c3\\n\:9fcd\
+\\tU+9fcd\\n\:3b55\\tU+3b55\\n\:4d13\\tU+4d13\\n\:4dae\\tU+4dae\\n\:43e1\\tU+\
+43e1\\n\:3db2\\tU+3db2\\n\:3cda\\tU+3cda\\n\:3cd8\\tU+3cd8\\n\:44d6\\tU+44d6\\\
+n\:36da\\tU+36da\\n\:40ae\\tU+40ae\\n\:364d\\tU+364d\\n\:44eb\\tU+44eb\\n\
+\:44ec\\tU+44ec\\n\:44e8\\tU+44e8\\n\:44db\\tU+44db\\n\:9fce\\tU+9fce\\n\:4d15\
+\\tU+4d15\\n\:3af0\\tU+3af0\\n\:4383\\tU+4383\\n\:3fe0\\tU+3fe0\\n\:4759\\tU+\
+4759\\n\:43f2\\tU+43f2\\n\:4d14\\tU+4d14\\n\:3944\\tU+3944\\n\:3658\\tU+3658\\\
+n\:9fcf\\tU+9fcf\\n\:4403\\tU+4403\\n\:3e84\\tU+3e84\\n\:3d14\\tU+3d14\\n\
+\:36f9\\tU+36f9\\n\:4d16\\tU+4d16\\n\:40c5\\tU+40c5\\n\:48d8\\tU+48d8\\n\:3b0a\
+\\tU+3b0a\\n\:415f\\tU+415f\\n\:4c9f\\tU+4c9f\\n\:40ce\\tU+40ce\\n\:4d17\\tU+\
+4d17\\n\:3b0e\\tU+3b0e\\n\:3666\\tU+3666\\n\:3f4f\\tU+3f4f\\n\:3bbe\\tU+3bbe\\\
+n\:3eec\\tU+3eec\\n\:45d6\\tU+45d6\\n\:3807\\tU+3807\\n\:4d18\\tU+4d18\\n\
+\:3d50\\tU+3d50\\n\:3b1a\\tU+3b1a\\n\:45db\\tU+45db\\n\:3813\\tU+3813\\n\:360e\
+\\tU+360e\\n\:4ca0\\tU+4ca0\\n\:45ea\\tU+45ea\\n\:45f4\\tU+45f4\\n\:4ca2\\tU+\
+4ca2\\n\:4396\\tU+4396\\n\:4d19\\tU+4d19\\n\:3c00\\tU+3c00\\n\:3e0c\\tU+3e0c\"\
+\>"], "Output",
+ CellChangeTimes->{{3.733324955984899*^9, 3.733324974136115*^9}, {
+   3.733325104828785*^9, 3.7333251164646063`*^9}, {3.7333251841463127`*^9, 
+   3.733325249361143*^9}, 3.733325313698701*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\</tmp/missing16bitcodes.txt\>\"", ",", "missing16bitcodes"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7333241019208937`*^9, 3.7333241035175657`*^9}, {
+  3.733324137228898*^9, 3.7333241539291067`*^9}, {3.733324188960844*^9, 
+  3.733324204424718*^9}, {3.7333242352848186`*^9, 3.733324253148336*^9}, {
+  3.733324885535063*^9, 3.7333248895808496`*^9}, {3.73332532140738*^9, 
+  3.733325339037251*^9}}],
+
+Cell[BoxData["\<\"/tmp/missing16bitcodes.txt\"\>"], "Output",
+ CellChangeTimes->{
+  3.733324154547797*^9, 3.733324207909375*^9, {3.733324238192109*^9, 
+   3.733324270712717*^9}, 3.733325339737647*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$CharacterEncodings"], "Input",
+ CellChangeTimes->{{3.7333244828383904`*^9, 3.733324489888913*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"AdobeStandard\"\>", ",", "\<\"ASCII\"\>", ",", "\<\"CP936\"\>",
+    ",", "\<\"CP949\"\>", ",", "\<\"CP950\"\>", ",", "\<\"Custom\"\>", 
+   ",", "\<\"EUC-JP\"\>", ",", "\<\"EUC\"\>", ",", "\<\"IBM-850\"\>", 
+   ",", "\<\"ISO10646-1\"\>", ",", "\<\"ISO8859-10\"\>", 
+   ",", "\<\"ISO8859-11\"\>", ",", "\<\"ISO8859-13\"\>", 
+   ",", "\<\"ISO8859-14\"\>", ",", "\<\"ISO8859-15\"\>", 
+   ",", "\<\"ISO8859-16\"\>", ",", "\<\"ISO8859-1\"\>", 
+   ",", "\<\"ISO8859-2\"\>", ",", "\<\"ISO8859-3\"\>", 
+   ",", "\<\"ISO8859-4\"\>", ",", "\<\"ISO8859-5\"\>", 
+   ",", "\<\"ISO8859-6\"\>", ",", "\<\"ISO8859-7\"\>", 
+   ",", "\<\"ISO8859-8\"\>", ",", "\<\"ISO8859-9\"\>", 
+   ",", "\<\"ISOLatin1\"\>", ",", "\<\"ISOLatin2\"\>", 
+   ",", "\<\"ISOLatin3\"\>", ",", "\<\"ISOLatin4\"\>", 
+   ",", "\<\"ISOLatinCyrillic\"\>", ",", "\<\"Klingon\"\>", 
+   ",", "\<\"koi8-r\"\>", ",", "\<\"MacintoshArabic\"\>", 
+   ",", "\<\"MacintoshChineseSimplified\"\>", 
+   ",", "\<\"MacintoshChineseTraditional\"\>", 
+   ",", "\<\"MacintoshCroatian\"\>", ",", "\<\"MacintoshCyrillic\"\>", 
+   ",", "\<\"MacintoshGreek\"\>", ",", "\<\"MacintoshHebrew\"\>", 
+   ",", "\<\"MacintoshIcelandic\"\>", ",", "\<\"MacintoshKorean\"\>", 
+   ",", "\<\"MacintoshNonCyrillicSlavic\"\>", 
+   ",", "\<\"MacintoshRomanian\"\>", ",", "\<\"MacintoshRoman\"\>", 
+   ",", "\<\"MacintoshRomanPDFExport\"\>", ",", "\<\"MacintoshThai\"\>", 
+   ",", "\<\"MacintoshTurkish\"\>", ",", "\<\"MacintoshUkrainian\"\>", 
+   ",", "\<\"Math1\"\>", ",", "\<\"Math2\"\>", ",", "\<\"Math3\"\>", 
+   ",", "\<\"Math4\"\>", ",", "\<\"Math5\"\>", ",", "\<\"Mathematica1\"\>", 
+   ",", "\<\"Mathematica2\"\>", ",", "\<\"Mathematica3\"\>", 
+   ",", "\<\"Mathematica4\"\>", ",", "\<\"Mathematica5\"\>", 
+   ",", "\<\"Mathematica6\"\>", ",", "\<\"Mathematica7\"\>", 
+   ",", "\<\"PrintableASCII\"\>", ",", "\<\"ShiftJIS\"\>", 
+   ",", "\<\"Symbol\"\>", ",", "\<\"Unicode\"\>", ",", "\<\"UTF-8\"\>", 
+   ",", "\<\"UTF8\"\>", ",", "\<\"WindowsANSI\"\>", 
+   ",", "\<\"WindowsBaltic\"\>", ",", "\<\"WindowsCyrillic\"\>", 
+   ",", "\<\"WindowsEastEurope\"\>", ",", "\<\"WindowsGreek\"\>", 
+   ",", "\<\"WindowsThai\"\>", ",", "\<\"WindowsTurkish\"\>", 
+   ",", "\<\"ZapfDingbats\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.733324487810198*^9, 3.733324490430019*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"extracodes", "=", 
+  RowBox[{"{", 
+   RowBox[{
+   "\"\<\:d840\:dc0b\>\"", ",", "\"\<\:d840\:dc21\>\"", ",", 
+    "\"\<\:d840\:dc3e\>\"", ",", "\"\<\:d840\:dc46\>\""}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.733334533223935*^9, 3.733334607757935*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\:d840\:dc0b\"\>", ",", "\<\"\:d840\:dc21\"\>", 
+   ",", "\<\"\:d840\:dc3e\"\>", ",", "\<\"\:d840\:dc46\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.733334608739954*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"ToCharacterCode", "/@", "extracodes"}], "\[IndentingNewLine]", 
+ RowBox[{"BaseForm", "[", 
+  RowBox[{"%", ",", "16"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.733334609987638*^9, 3.733334625307168*^9}, {
+  3.7333348551125793`*^9, 3.733334873426326*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"55360", ",", "56331"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"55360", ",", "56353"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"55360", ",", "56382"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"55360", ",", "56390"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.733334625823832*^9, {3.733334852324254*^9, 3.733334873886063*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      InterpretationBox[
+       SubscriptBox["\<\"d840\"\>", "\<\"16\"\>"],
+       55360,
+       Editable->False], ",", 
+      InterpretationBox[
+       SubscriptBox["\<\"dc0b\"\>", "\<\"16\"\>"],
+       56331,
+       Editable->False]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      InterpretationBox[
+       SubscriptBox["\<\"d840\"\>", "\<\"16\"\>"],
+       55360,
+       Editable->False], ",", 
+      InterpretationBox[
+       SubscriptBox["\<\"dc21\"\>", "\<\"16\"\>"],
+       56353,
+       Editable->False]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      InterpretationBox[
+       SubscriptBox["\<\"d840\"\>", "\<\"16\"\>"],
+       55360,
+       Editable->False], ",", 
+      InterpretationBox[
+       SubscriptBox["\<\"dc3e\"\>", "\<\"16\"\>"],
+       56382,
+       Editable->False]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      InterpretationBox[
+       SubscriptBox["\<\"d840\"\>", "\<\"16\"\>"],
+       55360,
+       Editable->False], ",", 
+      InterpretationBox[
+       SubscriptBox["\<\"dc46\"\>", "\<\"16\"\>"],
+       56390,
+       Editable->False]}], "}"}]}], "}"}],
+  BaseForm[#, 16]& ]], "Output",
+ CellChangeTimes->{
+  3.733334625823832*^9, {3.733334852324254*^9, 3.733334873887815*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"16^^2000b", ",", "16^^20021", ",", "16^^2003e", ",", "16^^20046"}],
+   "}"}]], "Input",
+ CellChangeTimes->{{3.733338652864092*^9, 3.733338670961434*^9}, {
+  3.73333926953722*^9, 3.733339305613248*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"131083", ",", "131105", ",", "131134", ",", "131142"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.733339361353537*^9}]
+}, Open  ]]
+},
+WindowSize->{1259, 1003},
+WindowMargins->{{Automatic, 283}, {1, Automatic}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info1073733332365-7849400"->{
+  Cell[32648, 1147, 1457, 27, 104, "Print",
+   CellTags->"Info1073733332365-7849400"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info1073733332365-7849400", 43113, 1404}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 94, 1, 32, "Input"],
+Cell[CellGroupData[{
+Cell[677, 25, 96, 2, 34, "Input"],
+Cell[776, 29, 31710, 1109, 462, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32523, 1143, 122, 2, 32, "Input"],
+Cell[32648, 1147, 1457, 27, 104, "Print",
+ CellTags->"Info1073733332365-7849400"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34142, 1179, 746, 18, 41, "Input"],
+Cell[34891, 1199, 1702, 22, 1771, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36630, 1226, 451, 8, 34, "Input"],
+Cell[37084, 1236, 200, 3, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37321, 1244, 113, 1, 32, "Input"],
+Cell[37437, 1247, 2337, 38, 195, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39811, 1290, 276, 6, 34, "Input"],
+Cell[40090, 1298, 218, 5, 34, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40345, 1308, 278, 5, 56, "Input"],
+Cell[40626, 1315, 412, 12, 34, "Output"],
+Cell[41041, 1329, 1309, 46, 48, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42387, 1380, 241, 5, 34, "Input"],
+Cell[42631, 1387, 158, 4, 34, "Output"]
+}, Open  ]]
+}
+]
+*)
+
